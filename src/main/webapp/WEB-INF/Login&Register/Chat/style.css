@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.chatbox {
+    flex: 1;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#chatroom-list li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#new-chatroom-form {
+    display: flex;
+}
+
+#new-chatroom-form input[type="text"] {
+    flex: 1;
+    padding: 8px;
+}
+
+#new-chatroom-form input[type="submit"] {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#message-list {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#message-form input[type="text"] {
+    width: 80%;
+    padding: 8px;
+}
+
+#message-form input[type="submit"] {
+    width: 20%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}

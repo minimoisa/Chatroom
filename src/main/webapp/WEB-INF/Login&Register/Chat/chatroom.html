@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatroom</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="sidebar">
+        <h2>Chatrooms</h2>
+        <ul id="chatroom-list"></ul>
+        <form id="new-chatroom-form">
+            <input type="text" id="chatroom-name" placeholder="Enter chatroom name">
+            <input type="submit" value="Create">
+        </form>
+    </div>
+    <div class="chatbox">
+        <h2 id="chatroom-title">Chatroom</h2>
+        <ul id="message-list"></ul>
+        <form id="message-form">
+            <input type="text" id="message-input" placeholder="Type your message">
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
